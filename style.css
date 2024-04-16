@@ -69,7 +69,7 @@ section .main .secrchbox{
 }
 
 section .main .secrchbox .secrch{
-    width: 80%;
+    width: 81%;
     padding: 13px;
     padding-left: 45px;
     padding-right: 60px;
@@ -148,23 +148,22 @@ section .footer .row ul li a{
     margin-right: 25px;
 }
 
-/*Desktop*/
-@media (min-width:1024px)
+/* mobile view */
 
-/*mobile view*/
-
-@media (max-width:360px){
+@media (max-width:768px){
     section .main .secrchbox .secrch{
-        width: 78%;
-        margin-left: 50px;
+        width: 65%;
+        margin-left: 10px;
     }
-    section .main .secrchbox .icons{
-        width: 70%;
-        margin-left: 50px;
+    section .main .secrchbox .icons {
+        width:85%;
     }
+
     section .footer .row ul{
         display: block;
-    
     }
 
+    section header{
+        margin-right:20px;
+    }
 }
